@@ -74,7 +74,7 @@ import unittest
 
 import stubout
 
-class Error(AssertionError):
+class Error(BaseException):
   """Base exception for this module."""
 
   pass
