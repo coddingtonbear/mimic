@@ -2159,7 +2159,7 @@ class MimicMetaTestBase(type):
         if attr_name not in d:
           try:
             attr_value = getattr(base, attr_name)
-          except AttributeValue:
+          except AttributeError:
             continue
           d[attr_name] = attr_value
 
