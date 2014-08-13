@@ -16,10 +16,10 @@
 
 from distutils.core import setup
 
-setup(name='mimic',
+setup(name='gmcquillan-mimic',
       version='0.0.2',
       py_modules=['mimic', 'stubout'],
-      url='http://code.google.com/p/pymox/',
+      url='http://github.com/gmcquillan/mimic',
       maintainer='Gavin McQuillan',
       maintainer_email='gavin dot mcquillan at {gmail.com}',
       license='Apache License, Version 2.0',
